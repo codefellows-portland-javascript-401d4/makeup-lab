@@ -75,9 +75,8 @@ Review should be updated if submited for existing user/restaurant id's.
   ])
   .then(/*...*/)
   ```
- * Return a particular restaurant. Includes all fields for that restuarant, plus a ratings array that 
- contains all fields for all rating records that belong to the restaurant. The ratings records should 
- populate the userName from the userId
+ * Return a particular restaurant. Includes all fields for that restuarant, populate the neighborhoodId with the name of the 
+ neighborhood, plus add a ratings fields that is an array that contains all fields for all rating records that belong to the restaurant. The ratings records should populate the userName from the userId
  
  ### Testing
  

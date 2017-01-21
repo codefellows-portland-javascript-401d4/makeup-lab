@@ -11,7 +11,7 @@ This app tracks restaurants and user ratings by Portland neighborhood
 1. `/welcome` - A main welcome/landing page that greets users and is publically assessable.
 2. `/neighborhoods` - A Neighborhood page that lists all neighborhoods showing the name of the neigborhood
 along with count of saved restaurants for each neighborhood.
-  1. User can select one quadrant and list will filter client side 
+  1. Provide a way for the user can select one quadrant and list will filter client side to that quadrant. 
   1. User should be able to add a new neighborhood. Can be inline or use a popup.
   1. User can click on a neighborhood and transition to the `/neighborhoods/:id` state
 3. `/neighborhoods/:id` - Shows a list of all restaurants that have been saved to that neigborhood, 
@@ -89,7 +89,7 @@ Review should be updated if submited for existing user/restaurant id's.
  * If there are general things like linting, builds scripts, etc. that we consistently did across 
  projects, do that for this project as well
  
- ## Questions?
+ ## Questions, Clarifications, Did I miss something?
  
  Post an issue to this repo.
   

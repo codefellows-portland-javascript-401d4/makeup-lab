@@ -20,11 +20,11 @@ and an average user rating.
   1. User can add a new restaurant. Can be inline or use a popup.
   1. If the user added the restaurant, they can delete it.
   1. User can click on a restaurant and go to the `/restaurants/:id` state.
- 4. `/restaurants/:id` - Detail view of restaurant and list of ratings by user.
+4. `/restaurants/:id` - Detail view of restaurant and list of ratings by user.
   1. User can add a rating to a restaurant between 1 and 5 "starts" and leave a comment. 
   They can change their existing rating and comment, but cannot add a second.
   
-Routes 2 & 3 are protected, there must be a valid signed in user.
+Routes 2, 3 and 4 are protected, there must be a valid signed in user.
 
 Neighborhoods, restaurants and ratings are visible across all users.
 

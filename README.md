@@ -1,6 +1,6 @@
-# Make Up FullStack Lab
+# Make A FullStack App
 
-Create an complete fullstack lab using Node, Express, Mongo(oose), and Angular.
+Create an complete fullstack lab using Node, Express, Mongo(oose), and React.
 
 This app tracks restaurants and user ratings by Portland neighborhood
 
@@ -11,16 +11,16 @@ This app tracks restaurants and user ratings by Portland neighborhood
 1. `/welcome` - A main welcome/landing page that greets users and is publically assessable.
 2. `/neighborhoods` - A Neighborhood page that lists all neighborhoods showing the name of the neigborhood
 along with count of saved restaurants for each neighborhood.
-  1. Provide a way for the user to select one quadrant and list will filter client side to that quadrant. 
+  1. Provide a way for the user to select one quadrant and list will filter **client side** to that quadrant. 
   1. User should be able to add a new neighborhood. Can be inline or use a popup.
   1. User can click on a neighborhood and transition to the `/neighborhoods/:id` state
 3. `/neighborhoods/:id` - Shows a list of all restaurants that have been saved to that neigborhood, 
 and an average user rating.
-  1. The list should default from highest-ranking to lowest, but offer an option to switch the sort order (client side sorting).
+  1. The list should default from highest-ranking to lowest, but offer an option to toggle sort order (client side sorting) to lowest-to-highest.
   1. User can add a new restaurant. Can be inline or use a popup.
   1. If the user added the restaurant, they can delete it.
   1. User can click on a restaurant and go to the `/restaurants/:id` state.
-  1. Provide a way for the user to go back to the neighborhoods
+  1. Provide a way for the user to go back to the neighborhood the restaurant belongs in
 4. `/restaurants/:id` - Detail view of restaurant and list of ratings by user.
   1. User can add a rating to a restaurant between 1 and 5 "starts" and leave a comment. 
   They can change their existing rating and comment, but cannot add a second.
@@ -34,8 +34,7 @@ You need to offer ability to sign up and sign in.
 
 ### Testing
 
-You need to write unit tests for all services and component controllers 
-(if there _is_ js logic in them, if not don't unit test)
+You need to write snaphot tests for all components. Unit tests for pur js logic modules.
 
 ## Server
 
@@ -82,6 +81,8 @@ Review should be updated if submited for existing user/restaurant id's.
  
  Write E2E test for all major operations. You only need to do one golden path test for each operation, 
  not exhaustive edge cases.
+ 
+ Unit test models if they have significant functionality.
  
  ## Quality
  
